@@ -12,6 +12,12 @@ body {
   outline: none;
   border: none;
 }
+.product {
+  background-color: rgb(253, 213, 220);
+  
+  margin: 5px;
+  border-radius: 10px;
+}
 .search-box {
   border: 1px solid rgb(3, 118, 211);
   width: 281px;
