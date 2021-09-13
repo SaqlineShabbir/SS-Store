@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RangaStore</title>
+  <title>SS Store</title>
   <link rel="stylesheet" href="./css/style.css" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -25,20 +25,20 @@
   <main class="main">
    <!--bootstrap input field-->
    <div class="input-group mb-3 container my-5 w-50">
-    <input id="input-field" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-    <button id="search-btn" onclick="loadProducts()" class="btn btn-outline-secondary" type="button" >Search</button>
+    <input id="input-field" type="text" class="form-control fs-3 p-4" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button id="search-btn" onclick="loadProducts()" class="btn btn-outline-secondary fs-4" type="button" >Search</button>
   </div>
 
 
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
-        <div id="all-products" class="">
-         <!----- <h1>hello</h1> -->
+        <div id="all-products" class="ms-5 fs-3">
+         
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
-        <div class="cart" id="my-cart">
-          <table class="table">
+        <div class="cart ms-5" id="my-cart">
+          <table class="table ">
             <thead>
               <h1 >My-Cart</h1>
               <tr>
@@ -48,15 +48,15 @@
                 <th scope="col"></th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="fs-3">
               <tr>
                 <th>Total Added-Products:</th>
                 <td> <span id="total-Products">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
-              <tr>
-                <th>Price:</th>
+              <tr >
+                <th >Price:</th>
                 <td>$ <span id="price">0</span></td>
                 <td></td>
                 <td></td>
@@ -81,7 +81,7 @@
             </tbody>
           </table>
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button class="btn btn-primary text-center fs-3">Buy Now</button>
           </div>
         </div>
       </div>
@@ -97,15 +97,3 @@
 
 
 
-<!-----------------------
-      <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
-      </div>
-    </div>
-  
-  ----------------------------------------->
